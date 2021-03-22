@@ -1,9 +1,14 @@
+@font-face {
+    font-family: 'DSEG7';
+    src: url('fonts/DSEG7Classic-Bold.woff') format('woff');
+}
+
 body{
     height: 100%; /* 100% Full-height */
     width: 100%; /* 0 width - change this with JavaScript */
     display: flex;
     position: fixed; /* Stay in place */
-    background-color: white;
+    background-color: #303e4c;
 }
 
 img{
@@ -50,4 +55,24 @@ img{
     width: 150px;
     margin: auto;
     margin-top: 10px;
+}
+
+#something{
+    font-family: DSEG7;
+    color: #f04637;
+    font-size: 100px;
+    position: absolute;
+}
+
+#somethingbg{
+    font-family: DSEG7;
+    font-size: 100px;
+    color: red;
+    opacity: 0.2;
+}
+
+#outersomething{
+    height: 150px;
+    margin:auto;
+    width: fit-content;
 }
