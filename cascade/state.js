@@ -75,7 +75,7 @@ export class StateManager{
         StateManager.instance = this;
 
         var jsonFile = new XMLHttpRequest();
-        jsonFile.open("GET",document.URL+"/state.json?"+ new Date().getTime(),true);
+        jsonFile.open("GET",document.URL+"state.json?"+ new Date().getTime(),true);
 
 
         this.xhttp = new FakeHTTP();
