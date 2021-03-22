@@ -1,5 +1,5 @@
 import {StateManager, followPath} from "./state.js";
-import {Sortable, OnSpill} from '/lib/sortable.core.esm.js';
+import {Sortable, OnSpill} from './lib/sortable.core.esm.js';
 import {FakeHTTP} from "./fake_server.js";
 
 
