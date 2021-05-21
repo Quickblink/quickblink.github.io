@@ -3,13 +3,55 @@
     src: url('fonts/DSEG7Classic-Bold.woff') format('woff');
 }
 
-body{
-    height: 100%; /* 100% Full-height */
-    width: 100%; /* 0 width - change this with JavaScript */
+html{
     display: flex;
-    position: fixed; /* Stay in place */
+    min-height: 100vh; /* 100% Full-height */
+}
+
+body{
+    margin: auto;
+    width: 100vw;
+    max-width: 960px;
     background-color: #303e4c;
 }
+
+.outercon{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: 150px;
+    gap: 30px;
+}
+
+#titlecontainer{
+    margin:auto;
+    grid-column: 1 / -1;
+}
+
+#titlecontainer *{
+    font-family: DSEG7;
+    font-size: 100px;
+}
+
+#title_fg{
+    color: #f04637;
+    position: absolute;
+}
+
+#title_bg{
+    color: red;
+    opacity: 0.2;
+}
+
+.projectcon{
+    margin: auto;
+    border-radius: 30px;
+    height: 600px;
+    width: 300px;
+    background-color: #8796a5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 
 .projectimg{
     display: block;
@@ -20,19 +62,7 @@ body{
     object-fit: cover;
 }
 
-.outercon{
-    margin: auto;
-}
 
-.projectcon{
-    border-radius: 30px;
-    display: inline-block;
-    height: 600px;
-    width: 300px;
-    background-color: #8796a5;
-    margin: 30px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 
 .projtitle{
     background-color: #d8dee4;
@@ -47,66 +77,39 @@ body{
 }
 
 .demo{
+    display: block;
     background-color: #f04637;
     color: white;
     padding: 15px 25px;
     text-align: center;
     text-decoration: none;
     border-radius: 30px;
-    display: table;
     width: 150px;
     margin: auto;
     margin-top: 10px;
 }
 
-.github{
+.github {
+    display: flex;
     background-color: #24292e;
     color: white;
-    #padding: 15px 25px;
-    #text-align: center;
     text-decoration: none;
     border-radius: 30px;
-    display: table;
     width: 200px;
     margin: auto;
     margin-top: 10px;
     height: 50px;
 }
 
-.imgcont{
-    float: left;
-    left: 10px;
-}
-
-.buttontext{
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.github img{
-    height: 30px;
-    width: 30px;
-    vertical-align: middle;
-    position: relative;
-    left:10px;
-}
-
-#something{
-    font-family: DSEG7;
-    color: #f04637;
-    font-size: 100px;
-    position: absolute;
-}
-
-#somethingbg{
-    font-family: DSEG7;
-    font-size: 100px;
-    color: red;
-    opacity: 0.2;
-}
-
-#outersomething{
-    height: 150px;
+.github *{
+    display: flex;
     margin:auto;
-    width: fit-content;
 }
+
+.github p{
+    margin-left: 10px;
+}
+
+
+
+
