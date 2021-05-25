@@ -13,32 +13,87 @@
         <span id="title_bg">88:888888</span>
     </div>
     <div class="projectcon">
-        <div class="projtitle">Cascade</div>
         <img class="projectimg" src="cascade_sample1.jpg"/>
-        <a class="github" href="https://github.com/Quickblink/cascade">
-            <div>
-                <img src="GitHub-Mark-Light-32px.png"/>
-                <p class="buttontext">Repository</p>
-            </div>
-        </a>
-        <a class="demo" href="cascade">Demo</a>
+        <div class="projtitle">Cascade</div>
+        <div>
+            <ul>
+                <li>Build models as a fixed computational graph in PyTorch in a way inspired by Keras.</li>
+                <li>No separate __init__ and forward definitions necessary. Short and comprehensible model definitions
+                    for complex and/or recurrent architectures.
+                </li>
+                <li>Input sizes for each module as computed automatically based on the input shape to the network.</li>
+                <li>All hidden state of submodules in managed automatically.</li>
+                <li>Executes sequences of data in a batched fashion whenever possible and performs graph analysis to do
+                    so.
+                </li>
+            </ul>
+        </div>
+        <div class="flex">
+            <a class="github" href="https://github.com/Quickblink/cascade">
+                <div>
+                    <img src="GitHub-Mark-Light-32px.png"/>
+                    <p class="buttontext">Repository</p>
+                </div>
+            </a>
+            <a class="demo" href="cascade">Demo</a>
+        </div>
     </div>
     <div class="projectcon">
-        <div class="projtitle">rnnbuilder</div>
         <img class="projectimg" src="sample_comp_graph.png"/>
-        <a class="github" href="https://github.com/Quickblink/rnnbuilder">
+        <div class="projtitle">rnnbuilder</div>
+        <div>
+            <ul>
+                <li>Build models as a fixed computational graph in PyTorch in a way inspired by Keras.</li>
+                <li>No separate __init__ and forward definitions necessary. Short and comprehensible model definitions
+                    for complex and/or recurrent architectures.
+                </li>
+                <li>Input sizes for each module as computed automatically based on the input shape to the network.</li>
+                <li>All hidden state of submodules in managed automatically.</li>
+                <li>Executes sequences of data in a batched fashion whenever possible and performs graph analysis to do
+                    so.
+                </li>
+            </ul>
+            <div class="pipins">
+                <span id="instruction" class="pipinner">pip install rnnbuilder</span>
+                <button onclick="myFunction()" id="copybttn" class="pipinner"><img src="copy-solid.svg"></button>
+            </div>
+        </div>
+        <div class="flex">
+            <a class="github" href="https://github.com/Quickblink/rnnbuilder">
+                <div>
+                    <img src="GitHub-Mark-Light-32px.png"/>
+                    <p class="buttontext">Repository</p>
+                </div>
+            </a>
+
+            <a class="demo" href="rnnbuilder">Documentation</a>
+        </div>
+    </div>
+    <div class="projectcon" id="ataricon">
+        <img class="projectimg" src="atari_sample2.png"/>
+        <div class="projtitle">Atari</div>
+        <div>
+            <ul>
+                <li>Build models as a fixed computational graph in PyTorch in a way inspired by Keras.</li>
+                <li>No separate __init__ and forward definitions necessary. Short and comprehensible model definitions
+                    for complex and/or recurrent architectures.
+                </li>
+                <li>Input sizes for each module as computed automatically based on the input shape to the network.</li>
+                <li>All hidden state of submodules in managed automatically.</li>
+                <li>Executes sequences of data in a batched fashion whenever possible and performs graph analysis to do
+                    so.
+                </li>
+            </ul>
+        </div>
+        <a class="github" href="https://github.com/Quickblink/atari">
             <div>
                 <img src="GitHub-Mark-Light-32px.png"/>
                 <p class="buttontext">Repository</p>
             </div>
         </a>
-        <a class="demo" href="rnnbuilder">Documentation</a>
-    </div>
-    <div class="projectcon">
-        <div class="projtitle">Atari</div>
-        <img class="projectimg" src="atari_sample2.png"/>
 
     </div>
 </div>
+<script src="script.js"></script>
 </body>
 </html>
