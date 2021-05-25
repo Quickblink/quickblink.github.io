@@ -202,7 +202,7 @@ li {
     }
 }
 
-html,body {
+* {
     text-size-adjust: none;
     -webkit-text-size-adjust: none;
     -moz-text-size-adjust: none;

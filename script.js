@@ -12,5 +12,5 @@ function myFunction() {
 
 if (screen.width < 1110) {
     var mvp = document.getElementById("testViewport");
-    mvp.setAttribute("content","width=400px,initial-scale=1");
+    mvp.setAttribute("content","width=400px");
 }
