@@ -96,7 +96,7 @@ body{
     color: white;
     text-decoration: none;
     border-radius: 30px;
-    width: 130px;
+    width: 135px;
     margin: 5px 5px auto auto;
     height: 40px;
 }
@@ -122,7 +122,7 @@ body{
 .pipins {
     display: flex;
     margin: 10px auto auto;
-    width: max-content;
+    width: 280px;
 }
 
 .pipins *{
@@ -139,15 +139,16 @@ body{
     color: white;
     font-family: Source Code Pro, monospace;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16.5px;
     background-color: #006dad;/*rgba(0, 0, 0, .15);*/
-    padding: 8px;
+    padding: 9px;
     border: 1px dotted hsla(0, 0%, 100%, 1);
     line-height: 20px;
 }
 
 #instruction {
     border-right: none;
+    width: 100%;
 }
 
 #copybttn:focus {
@@ -164,6 +165,9 @@ body{
 
 ul {
     color: white;
-    padding: 0 40px;
-    text-align: justify;
+    padding: 0 35px;
+    /*text-align: justify;*/
+}
+li {
+    padding: 2px 0;
 }

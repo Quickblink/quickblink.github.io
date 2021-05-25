@@ -17,14 +17,11 @@
         <div class="projtitle">Cascade</div>
         <div>
             <ul>
-                <li>Build models as a fixed computational graph in PyTorch in a way inspired by Keras.</li>
-                <li>No separate __init__ and forward definitions necessary. Short and comprehensible model definitions
-                    for complex and/or recurrent architectures.
-                </li>
-                <li>Input sizes for each module as computed automatically based on the input shape to the network.</li>
-                <li>All hidden state of submodules in managed automatically.</li>
-                <li>Executes sequences of data in a batched fashion whenever possible and performs graph analysis to do
-                    so.
+                <li>A mockup of a visual machine learning frame work</li>
+                <li>Visually arrange a computational graph in the web-based frontend and perform computations on the backend (similar to Jupyter)</li>
+                <li>A demo version lets you try it out without the backend - using pyodide to emulate python in javascript</li>
+                <li>Arbitrary python code can be executed</li>
+                <li>Many specific features are possible: Dynamic resource allocation, a history of training runs, smart hyperparameter management and more...
                 </li>
             </ul>
         </div>
@@ -43,14 +40,14 @@
         <div class="projtitle">rnnbuilder</div>
         <div>
             <ul>
-                <li>Build models as a fixed computational graph in PyTorch in a way inspired by Keras.</li>
+                <li>Build models as a fixed computational graph in PyTorch in a way inspired by Keras</li>
                 <li>No separate __init__ and forward definitions necessary. Short and comprehensible model definitions
-                    for complex and/or recurrent architectures.
+                    for complex and/or recurrent architectures
                 </li>
-                <li>Input sizes for each module as computed automatically based on the input shape to the network.</li>
-                <li>All hidden state of submodules in managed automatically.</li>
+                <li>Input sizes for each module as computed automatically based on the input shape to the network</li>
+                <li>All hidden state of submodules in managed automatically</li>
                 <li>Executes sequences of data in a batched fashion whenever possible and performs graph analysis to do
-                    so.
+                    so
                 </li>
             </ul>
             <div class="pipins">
@@ -71,21 +68,19 @@
     </div>
     <div class="projectcon" id="ataricon">
         <img class="projectimg" src="atari_sample2.png"/>
-        <div class="projtitle">Atari</div>
+        <div class="projtitle">RL framework</div>
         <div>
             <ul>
-                <li>Build models as a fixed computational graph in PyTorch in a way inspired by Keras.</li>
-                <li>No separate __init__ and forward definitions necessary. Short and comprehensible model definitions
-                    for complex and/or recurrent architectures.
-                </li>
-                <li>Input sizes for each module as computed automatically based on the input shape to the network.</li>
-                <li>All hidden state of submodules in managed automatically.</li>
-                <li>Executes sequences of data in a batched fashion whenever possible and performs graph analysis to do
-                    so.
-                </li>
+                <li>A mostly general Q-learning framework</li>
+                <li>Multi-processing is used to parallelize data generation and training</li>
+                <li>Different environments can be used in a format close to gym</li>
+                <li>Recurrent networks are supported and their state is saved and dynamically updated in the replay buffer</li>
+                <li>Data can be generated according to multiple actor policies (greedy, deterministic, etc.) and combinations are possible to formulate "training schedules"</li>
+                <li>Frame stacking is supported</li>
+                <li>Other modifications to standard Q-learning are possible</li>
             </ul>
         </div>
-        <a class="github" href="https://github.com/Quickblink/atari">
+        <a class="github" href="https://github.com/Quickblink/RLframework">
             <div>
                 <img src="GitHub-Mark-Light-32px.png"/>
                 <p class="buttontext">Repository</p>
