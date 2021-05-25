@@ -8,3 +8,9 @@ function myFunction() {
     document.execCommand("Copy");
     textArea.remove();
 }
+
+
+if (screen.width < 1110) {
+    var mvp = document.getElementById("testViewport");
+    mvp.setAttribute("content","width=350px,initial-scale=1");
+}
