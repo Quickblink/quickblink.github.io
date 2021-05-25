@@ -64,6 +64,17 @@ body{
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     object-fit: cover;
+    object-position: top;
+}
+
+#rnnbuilder .projectimg{
+    background-color: white;
+    display: flex;
+}
+
+#rnnbuilder .projectimg img {
+    width: 95%;
+    margin: auto;
 }
 
 .projtitle{
