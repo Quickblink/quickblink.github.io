@@ -10,15 +10,14 @@ html{
 
 body{
     margin: auto;
-    width: 100vw;
-    max-width: 1110px;
+    width: 1110px;
     background-color: #29333d; /*303e4c*/
 }
 
 .outercon{
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(3, 350px);
     grid-template-rows: 150px;
     gap: 30px;
 }
@@ -33,12 +32,12 @@ body{
     font-size: 100px;
 }
 
-#title_fg{
+.title_fg{
     color: #f04637;
     position: absolute;
 }
 
-#title_bg{
+.title_bg{
     color: red;
     opacity: 0.2;
 }
@@ -177,8 +176,28 @@ body{
 ul {
     color: white;
     padding: 0 35px;
+    font-size: 16px;
     /*text-align: justify;*/
 }
 li {
     padding: 2px 0;
+}
+
+.mobile {
+    display: none;
+}
+
+@media (max-width: 1110px) {
+    .outercon{
+        grid-template-columns: 350px;
+    }
+    body{
+        width: 350px;
+    }
+    .mobile{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
 }
