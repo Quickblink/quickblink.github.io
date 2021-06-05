@@ -23,21 +23,29 @@ body{
 }
 
 #titlecontainer{
-    margin:auto;
+    margin: 0 auto;
     grid-column: 1 / -1;
+    display: grid;
 }
 
-#titlecontainer *{
-    font-family: DSEG7;
-    font-size: 100px;
+#titlecontainer a {
+    color: #f04637;
+    margin-top: auto;
+    display: block;
+    text-align: center;
+    width: 100%;
 }
 
 .title_fg{
+    font-family: DSEG7;
+    font-size: 100px;
     color: #f04637;
     position: absolute;
 }
 
 .title_bg{
+    font-family: DSEG7;
+    font-size: 100px;
     color: red;
     opacity: 0.1;
 }
