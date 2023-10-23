@@ -37,10 +37,10 @@ body{
 }
 
 .title_fg{
-    font-family: DSEG7;
+    /* font-family: DSEG7; */
     font-size: 100px;
     color: #f04637;
-    position: absolute;
+    /* position: absolute; */
 }
 
 .title_bg{
